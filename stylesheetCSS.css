@@ -10,6 +10,9 @@ body {
     justify-content: center;
     background-color: #E28F1E;
     border: 1px solid purple;
+    background: #E28F1E;
+    
+   
 }
 
 .navigation li{
@@ -21,4 +24,6 @@ body {
     color: white;
     font-family: "Abril Fatface";
     border: 1px solid red;
+    flex-grow: 1;
+    text-align: center;
 }
