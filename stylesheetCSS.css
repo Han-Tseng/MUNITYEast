@@ -47,13 +47,21 @@ a {
     display: grid;
     grid-template-columns: auto auto auto;
     background-color: white;
-    justify-content: justify;
+    justify-content: center;
     font-size: 27px;}
 
-.detergent li {
-    
-    padding: 30px;
+.detergent ul {
+    padding: 70px;
+    font-size: 110%;
+    list-style: none;
 }
-.detergent img {
+.detergent-pic {
     width: 700px;
+}
+.detergent2 img {
+    height: 450px;
+}
+.detergent-pic {
+    display: flex;
+    flex-direction: column;
 }
