@@ -10,8 +10,6 @@ body {
     justify-content: center;
     background-color: green;
     background: green;
-    
-   
 }
 
 .navigation li{
@@ -21,11 +19,21 @@ body {
     padding: 1vw 8.5vw;
     font-size: 150%;
     color: white;
-    font-family: "Abril Fatface";
     flex-grow: 1;
     text-align: center;
 }
 
 a {
     text-decoration: none;
+}
+
+/*Styles. for the Sustainable Cleaning Brushes*/
+h1 {
+    text-align: center;
+}
+
+.top {
+    border: 1px solid red;
+    background-image: url("1.JPG");
+    color: white;
 }
