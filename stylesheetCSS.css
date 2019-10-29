@@ -8,8 +8,11 @@ body {
     margin: 0px;
     padding: 0px;
     justify-content: center;
+<<<<<<< HEAD
     background-color: green;
     background: green;
+=======
+>>>>>>> 8d2334d2f60f1ca6e408d05971d8e91d147c5739
     
    
 }
@@ -21,7 +24,10 @@ body {
     padding: 1vw 8.5vw;
     font-size: 150%;
     color: white;
+<<<<<<< HEAD
     font-family: "Abril Fatface";
+=======
+>>>>>>> 8d2334d2f60f1ca6e408d05971d8e91d147c5739
     flex-grow: 1;
     text-align: center;
 }
