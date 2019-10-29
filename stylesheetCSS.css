@@ -8,9 +8,6 @@ body {
     margin: 0px;
     padding: 0px;
     justify-content: center;
-    background-color: #E28F1E;
-    border: 1px solid purple;
-    background: #E28F1E;
     
    
 }
@@ -22,8 +19,6 @@ body {
     padding: 1vw 9.5vw;
     font-size: 150%;
     color: white;
-    font-family: "Abril Fatface";
-    border: 1px solid red;
     flex-grow: 1;
     text-align: center;
 }
