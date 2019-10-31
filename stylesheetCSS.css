@@ -2,6 +2,7 @@ body {
     margin: 0px;
     padding: 0px;
     height: 100%;
+    border: 0px;
 }
 
 .navigation {
@@ -31,23 +32,46 @@ a {
 /*Styles. for the Sustainable Cleaning Brushes*/
 h1 {
     text-align: center;
-    padding: 13vw;
+    padding: 11vw;
     font-size: 400%;
 }
 
 h6 {
-text-align: center;
-font-size: 150%
+    text-align: center;
+    font-size: 150%
+}
+
+h2 {
+    text-align: center;
+    font-size: 200%;
 }
 
 .top {
-    border: 1px solid red;
-    background-image: url("1.JPG");
-    color: white;
+    background-image: url("BrushesBackground.JPG");
     height: 100%;
+    color: white;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.productContainer {
+    border: 1px solid blue;
+    display: flex;
+    font-size: 125%;
+}
+
+.imageItemLeft {
+    border: 1px solid red;
+    display: flex;
+    flex-grow: 1;
+}
+
+.textItemRight {
+    border: 1px solid red;
+    display: flex;
+    flex-grow: 2;
+    padding: 2vw;
 }
 
 /* About */
@@ -70,8 +94,8 @@ font-size: 150%
     justify-content: center;
     font-size: 27px;}
 
-.detergent ul {
-    padding: 70px;
+.detergent li {
+    padding: 40px;
     font-size: 110%;
     list-style: none;
 }
