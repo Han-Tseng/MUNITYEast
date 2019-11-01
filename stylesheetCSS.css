@@ -1,10 +1,8 @@
 body {
-    margin: 0px;
-    padding: 0px;
-    height: 100%;
-    border: 0px;
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
-
 .navigation {
     display: flex;
     margin: 0px;
@@ -84,7 +82,7 @@ h2 {
     padding: 1vw;
 }
 
-/* About */
+/* Product 3 */
 
 .pro3title {
     text-align: center;
@@ -93,28 +91,27 @@ h2 {
 .detergent-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: white;
-    justify-content: justify;
+    background-color: lightcyan;
+    justify-content: center;
 }
 
 .detergent {
     display: grid;
     grid-template-columns: auto auto auto;
-    background-color: white;
+    background-color: lightcyan;
     justify-content: center;
-    font-size: 27px;}
+    font-size: 25px;
+}
 
 .detergent li {
-    padding: 40px;
+    padding-right: 20px;
+    padding-left: 10px;
+    padding-bottom: 20px;
     list-style: none;
 }
 .detergent-pic {
-    width: 750px;
-}
-.detergent2 img {
-    height: 450px;
-}
-.detergent-pic {
+    width: 760px;
     display: flex;
     flex-direction: column;
+    padding: 0.000001px;
 }
