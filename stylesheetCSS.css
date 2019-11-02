@@ -100,8 +100,29 @@ h2 {
     list-style: none;
 }
 .detergent-pic {
-    width: 760px;
+   background-image: url("productimg/PLANET_SKONES-PLYNT-01.jpg");
+   width: 700px;
+   background-size: cover;
+}
+
+/* Home */
+.product-container {
     display: flex;
-    flex-direction: column;
-    padding: 0.000001px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.products {
+    margin: 10px;
+}
+
+.products h4 {
+    text-align: center;
+}
+
+.products img {
+    width: 570px;
+}
+h2 {
+    font-size: 300%;
 }
