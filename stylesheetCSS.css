@@ -24,7 +24,7 @@ body {
 
 a {
     text-decoration: none;
-    color: darkblue;
+    color: #437C17;
 }
 
 .footer {
@@ -148,7 +148,8 @@ a {
 }
 
 .products img {
-    width: 570px;
+    height: 350px;
+    justify-items: justify;
 }
 
 h2 {
