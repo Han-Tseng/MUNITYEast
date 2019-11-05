@@ -25,6 +25,7 @@ body {
 
 a {
     text-decoration: none;
+    color: darkblue;
 }
 
 /*Product 2: Styles for the Sustainable Cleaning Brushes*/
@@ -133,7 +134,7 @@ h2 {
 
 .products p{
     text-align: center;
-    font-size: 125%;
+    font-size: 180%;
 }
 
 .products img {
