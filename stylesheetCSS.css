@@ -129,7 +129,7 @@ h2 {
     justify-content: center;
 }
 .products {
-    margin: -5px;
+    margin: 10px;
 }
 
 .products p{
@@ -139,8 +139,10 @@ h2 {
 
 .products img {
     height: 350px;
+    justify-items: justify;
 }
 
 h2 {
     font-size: 300%;
 }
+
